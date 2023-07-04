@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+
+/* Navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: black;
+  padding: 31px 83px;
+  height: 94px;
+}
+
+.nav-list {
+  flex-grow: 1;
+}
+
+img {
+    width: 92px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 64px;
+}
+
+a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list .list a:hover {
+  font-weight: bolder;
+}
+
+.nav-button {
+    padding: 7px 28px;
+    background: #ba0cc5;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+  font-weight: bolder;
+}
+
+
+/* Hero section */
+
+
+.hero {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 91.5vh;
+  text-align: center;
+}
+
+.main-heading {
+    max-width: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 172px;
+}
+
+.description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.main-btn {
+    background: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.9487px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+  font-weight: bolder;
+}
